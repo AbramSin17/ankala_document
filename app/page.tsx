@@ -10,7 +10,7 @@ export default function Home() {
           Ankala Dokumen
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-        berisi setiap hasil dokumentasi mengenai tAnkala
+        berisi setiap hasil dokumentasi mengenai Ankala Projek
       </p>
       <div className="flex items-center gap-5">
         <Link
