@@ -20,12 +20,15 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
+    title: "Stakeholder",
     href: "/navigation",
-    heading: "Documents",
+    heading: "Stakeholder Requirement",
   },
   {
-    title: "Structure",
+    spacer: true,
+  },
+  {
+    title: "System Requirement ",
     href: "/structure",
     items: [
       {
