@@ -2,22 +2,67 @@ import { Paths } from "@/lib/pageroutes";
 
 export const Documents: Paths[] = [
   {
-    title: "Bussines Document",
+    title: "Pendahuluan",
     href: "/introduction",
     heading: "Ankala Document",
     items: [
       {
-        title: "Fungsional & Kebutuhan Bisnis",
-        href: "/fungsional",
+        title: "Deskripsi Proyek",
+        href: "/deskripsi",
       },
       {
-        title: "Usability & Performance Requirement",
-        href: "/usability",
+        title: "Teknologi yang digunakan",
+        href: "/teknologi",
+      },
+      {
+        title: "Keterkaitan dengan Mata Kuliah",
+        href: "/keterkaitan",
       },
     ],
   },
   {
     spacer: true,
+  },
+  {
+    title: "Analisis Kebutuhan",
+    href: "/analisis",
+    heading: "Analisis dan Desain Perangkat Lunak",
+    items: [
+      {
+        title: "Bussines Requirement",
+        href: "/bussiness",
+      },
+      {
+        title: "Stakeholder Requirement",
+        href: "/stakeholder",
+      },
+      {
+        title: "System requirement",
+        href: "/system",
+      },
+      {
+        title: "Software requirement",
+        href: "/software",
+      },
+    ],
+  },
+  {
+    title: "Diagram",
+    href: "/diagram",
+    items: [
+      {
+        title: "Usecase Diagram",
+        href: "/usecase",
+      },
+      {
+        title: "Class Diagram",
+        href: "/class",
+      },
+      {
+        title: "Flowchart",
+        href: "/flowchart",
+      },
+    ],
   },
   {
     title: "Stakeholder",
