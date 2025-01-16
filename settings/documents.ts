@@ -65,72 +65,80 @@ export const Documents: Paths[] = [
     ],
   },
   {
-    title: "Stakeholder",
-    href: "/navigation",
-    heading: "Stakeholder Requirement",
-  },
-  {
     spacer: true,
   },
   {
-    title: "System Requirement ",
-    href: "/structure",
+    title: "Dokumen Desain",
+    href: "/desain",
+    heading: "Perancangan Desain Antarmuka",
     items: [
       {
-        title: "Deeper",
-        href: "/deeper",
-        items : [
-          {
-            title: "Even deeper",
-            href: "/even-deeper",
-          },
-        ]
+        title: "Sketsa Awal",
+        href: "/sketsa",
+      },
+      {
+        title: "Wireframe",
+        href: "/wireframe",
+      },
+      {
+        title: "Userflow",
+        href: "/userflow",
+      },
+      {
+        title: "Prototipe",
+        href: "/prototipe",
       },
     ],
   },
   {
+    title: "Implementasi Desain",
+    href: "/implementasi",
+  },
+  {
     spacer: true,
   },
   {
-    title: "Markup",
-    href: "/markup",
-    heading: "Components",
+    title: "Fitur Utama",
+    href: "/fitur",
+    heading: "Pengembangan Aplikasi",
+  },
+  {
+    title: "Struktur Basis Data",
+    href: "/basis",
+  },
+  {
+    title: "Metode SDLC",
+    href: "/metode",
+  },
+  {
+    spacer: true,
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/penggunaan",
+  },
+  {
+    spacer: true,
+  },
+  {
+    title: "Metode Pengembangan Perangkat Lunak",
+    href: "/pengembangan",
+  },
+  {
+    spacer: true,
+  },
+  {
+    title: "Kesimpulan dan Saran",
+    href: "/kesimpulan",
+    heading: "Kesimpulan dan Saran",
     items: [
       {
-        title: "Cards",
-        href: "/cards",
+        title: "Evaluasi Proyek",
+        href: "/evaluasi",
       },
       {
-        title: "Diagrams",
-        href: "/diagrams",
-      },
-      {
-        title: "Filetree",
-        href: "/filetree",
-      },
-      {
-        title: "Lists",
-        href: "/lists",
-      },
-      {
-        title: "Maths",
-        href: "/maths",
-      },
-      {
-        title: "Notes",
-        href: "/notes",
-      },
-      {
-        title: "Steps",
-        href: "/steps",
-      },
-      {
-        title: "Table",
-        href: "/table",
-      },
-      {
-        title: "Tabs",
-        href: "/tabs",
+        title: "Rekomendasi Pengembangan Selanjutnya",
+        href: "/berkelanjutan",
       },
     ],
   },
