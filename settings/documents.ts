@@ -3,22 +3,8 @@ import { Paths } from "@/lib/pageroutes";
 export const Documents: Paths[] = [
   {
     title: "Pendahuluan",
-    href: "/introduction",
+    href: "/pendahuluan",
     heading: "Ankala Document",
-    items: [
-      {
-        title: "Deskripsi Proyek",
-        href: "/deskripsi",
-      },
-      {
-        title: "Teknologi yang digunakan",
-        href: "/teknologi",
-      },
-      {
-        title: "Keterkaitan dengan Mata Kuliah",
-        href: "/keterkaitan",
-      },
-    ],
   },
   {
     spacer: true,
